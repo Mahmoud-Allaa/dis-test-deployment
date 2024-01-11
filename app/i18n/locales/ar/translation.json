@@ -1,0 +1,27 @@
+{
+    "Home": "الرئيسية",
+    "About US": "عن الشركة",
+    "Solutions": "Solutions",
+    "Products": "Products",
+    "Success Stories": "قصص نجاحنا",
+    "Contact Us": "تواصل معنا",
+    "home": {
+        "1": "أهلا DIS-SA"
+    },
+    "about": {
+        "1": "عن الشركة"
+    },
+    "solutions": {
+        "1": "Hello Solutions Page"
+    },
+    "products": {
+        "1": "Hello Products Page"
+    },
+    "stories": {
+        "1": "قصص نجاحما"
+    },
+    "contact": {
+        "1": "تواصل معنا"
+    },
+    "footer": {}
+}

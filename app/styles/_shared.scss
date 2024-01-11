@@ -1,0 +1,9 @@
+@tailwind components;
+
+@layer components {
+
+  // footer
+  .footer {
+    @apply bg-primary text-[#F5EFED] px-[70px] pt-[32px] pb-3;
+  }
+}

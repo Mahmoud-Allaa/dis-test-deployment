@@ -1,0 +1,27 @@
+{
+    "Home": "Home",
+    "About US": "About Us",
+    "Solutions": "Solutions",
+    "Products": "Products",
+    "Success Stories": "Success Stories",
+    "Contact Us": "Contact Us",
+    "home": {
+        "1": "Hello DIS-SA"
+    },
+    "about": {
+        "1": "Hello About Page"
+    },
+    "solutions": {
+        "1": "Hello Solutions Page"
+    },
+    "products": {
+        "1": "Hello Products Page"
+    },
+    "stories": {
+        "1": "Hello Stories Page"
+    },
+    "contact": {
+        "1": "Hello Contact Page"
+    },
+    "footer": {}
+}

@@ -1,0 +1,104 @@
+@tailwind components;
+
+@layer components {
+  // who we are
+  .whoarewe {
+    @apply section py-20 px-4 sm:px-10 lg:grid lg:grid-cols-7 md:items-center 2xl:items-end;
+
+    .col-1 {
+      text-wrap: balance;
+      @apply leading-[1.5rem] col-span-4;
+
+      .header {
+        @apply headline-2 text-center lg:text-left mb-8;
+      }
+      .list {
+        @apply list-[square] my-5;
+        & > li {
+          @apply ml-5;
+        }
+      }
+    }
+    .banner {
+      @apply w-[80%] sm:w-[60%] lg:w-[80%] mx-auto mt-10 col-span-3;
+    }
+  }
+
+  // framework
+  .framework {
+    @apply grid md:grid-cols-2 relative max-w-[1440px] mx-auto;
+
+    .col-1 {
+      @apply grid gap-6 place-self-center py-20 px-4  max-w-[400px] lg:max-w-[440px] mx-auto z-50;
+
+      .header {
+        @apply text-[1.875rem] lg:text-[3rem] leading-[2.5rem] lg:leading-[3.5rem] text-center md:text-left text-secondary font-bold;
+      }
+      .content {
+        @apply text-[1.5rem] leading-[1.875rem] font-medium;
+      }
+    }
+    .col-2 {
+      @apply grid gap-14 lg:gap-24 px-5 py-14 lg:py-28 bg-dark relative text-white overflow-hidden;
+
+      .fr-card {
+        @apply relative flex max-lg:max-w-[500px] mx-auto;
+
+        .icon-wrapper {
+          @apply shrink-0 pr-4;
+
+          .icon {
+            @apply p-6 bg-secondary rounded-lg aspect-square max-w-[100px] md:hidden;
+          }
+        }
+      }
+    }
+  }
+
+  // leadership
+  .leadership {
+    @apply flex flex-col lg:flex-row gap-6;
+
+    .content {
+      @apply flex flex-col max-lg:max-w-[500px] mx-auto lg:w-[150%] lg:justify-between gap-8;
+
+      & > * {
+        @apply flex flex-col gap-6;
+      }
+
+      .header {
+        @apply text-[1.25rem] md:headline-4 text-accent leading-[2rem] font-bold;
+      }
+      .text {
+        @apply text-[0.875rem] leading-[1.625rem];
+      }
+    }
+
+    .leaders {
+      @apply lg:w-[200%];
+    }
+  }
+
+  // values
+  .values {
+    @apply section relative md:py-24 overflow-hidden;
+
+    .header {
+      @apply grid gap-6 mb-20 md:mb-12 px-10 text-center max-w-[540px] md:text-left max-md:mx-auto;
+    }
+
+    .cardsRow {
+      @apply flex odd:flex-col md:odd:flex-row even:flex-col-reverse md:even:flex-row odd:rounded-tr-[10px] odd:rounded-tl-[10px] even:rounded-br-[10px] even:rounded-bl-[10px] overflow-hidden max-md:mx-auto md:w-[60%] w-fit;
+
+      & > * {
+        @apply sm:w-full max-w-[500px];
+      }
+      .black {
+        @apply bg-black bg-opacity-70;
+      }
+      .blue {
+        @apply bg-[#010B1A] bg-opacity-70;
+      }
+    }
+  }
+}

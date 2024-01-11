@@ -1,0 +1,11 @@
+@tailwind components;
+
+@layer components {
+  .stories {
+    .nav {
+      .nav-item {
+        @apply flex justify-between items-center text-[1rem] bg-accent text-white font-medium leading-[4rem] pl-16 pr-3;
+      }
+    }
+  }
+}
