@@ -4,6 +4,6 @@
 
   // footer
   .footer {
-    @apply bg-primary text-[#F5EFED] px-[70px] pt-[32px] pb-3;
+    @apply bg-primary text-[#F5EFED] px-[24px] pt-[32px] pb-3 md:px-[70px];
   }
 }

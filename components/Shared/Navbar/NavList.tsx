@@ -16,7 +16,7 @@ const NavList = ({ onClick = () => { }, lng = 'en', t }: any) => {
   return (
     <>
       {navData.map((e) =>
-        <li className={e.path == path ? 'text-secondary' : 'text-black'} key={e.name}>
+        <li className={`/${lng}${e.path}` == path ? 'text-secondary' : 'text-black'} key={e.name}>
           <span onClick={onClick}>
             <Link scroll={false} href={'/' + lng + e.path}>
               {t && t(e.name)}
