@@ -30,7 +30,9 @@ const Navbar = ({ lng = 'en', className = '' }) => {
             />
           </article>
         </Link>
-        <MenuIcon className='md:hidden' onClick={() => setNavOpen(true)} />
+        <div className="md:hidden">
+          <MenuIcon onClick={() => setNavOpen(true)} />
+        </div>
         <ul className='nav-list'>
           <NavList lng={lng} t={t} />
           <li>
