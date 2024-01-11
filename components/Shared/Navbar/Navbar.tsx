@@ -16,7 +16,6 @@ const Navbar = ({ lng = 'en', className = '' }) => {
   const { t } = useTranslation(lng, 'client-page')
   const [navOpen, setNavOpen] = useState(false)
   const path = usePathname()
-  console.log(path);
 
   return (
     <nav className={`nav bg-transparent ${className}`}>
