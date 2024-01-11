@@ -72,6 +72,9 @@ const Navbar = ({ lng = 'en', className = '' }) => {
                   </Link>
                 </span>
               </li>
+              <li className='text-center mt-10'>
+                <Link className='text-black' href={`/${lng === 'en' ? 'ar' : 'en'}`}><LanguageIcon /></Link>
+              </li>
             </ul>
           </article>
         )}
