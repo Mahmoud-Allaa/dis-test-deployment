@@ -15,7 +15,7 @@ h3 {
 }
 
 .hero {
-    background: linear-gradient(90deg, rgba(106, 95, 232, 0.10) 18.84%, #B5AFFF 64.93%, rgba(217, 217, 217, 0.00) 102.42%);
+    background: var(--GRADIENT, linear-gradient(90deg, #DEE7F4 18.84%, #86A4E2 64.93%, #EDEDED 102.42%));
 }
 
 .trapezoid-l {
