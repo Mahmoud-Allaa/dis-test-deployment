@@ -7,7 +7,7 @@ import { usePathname } from 'next/navigation'
 const navData = [
   { name: 'About US', path: '/about' },
   // { name: 'Solutions', path: '/solutions' },
-  { name: 'Success Stories', path: '/stories' },
+  { name: 'Referances', path: '/referances' },
 ]
 
 const NavList = ({ onClick = () => { }, lng = 'en', t }: any) => {
@@ -16,7 +16,7 @@ const NavList = ({ onClick = () => { }, lng = 'en', t }: any) => {
   return (
     <>
       {navData.map((e) =>
-        <li className={`/${lng}${e.path}` == path ? 'text-secondary' : 'text-black'} key={e.name}>
+        <li className={`/${lng}${e.path}` == path ? 'font-bold' : 'font-normal'} key={e.name}>
           <span onClick={onClick}>
             <Link scroll={false} href={'/' + lng + e.path}>
               {t && t(e.name)}

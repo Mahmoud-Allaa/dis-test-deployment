@@ -3,13 +3,131 @@
     "About US": "About Us",
     "Solutions": "Solutions",
     "Products": "Products",
-    "Success Stories": "Success Stories",
+    "Referances": "Referances",
     "Contact Us": "Contact Us",
+    "btns": {
+        "get-started": "Get Started",
+        "know-more": "Know more",
+        "contact-us": "Contact Us"
+    },
     "home": {
-        "1": "Hello DIS-SA"
+        "hero": {
+            "1": "As a trusted leading software house, we excel in Application Development",
+            "2": "Our expertise lies in crafting innovative and high-performance mobile applications, tailored to meet your specific needs. Our skilled team is dedicated to delivering seamless and impactful software solutions, including ERP services"
+        },
+        "clients": {
+            "1": "Trusted By 350+ companies around the world "
+        },
+        "odooApps": {
+            "1": "Invest in the future and embark on a digital transformation journey with the Odoo system.",
+            "2": "Experience an efficient and comprehensive business management with the Odoo system. Enhance your competitive edge with the leading Odoo Gold Partner in the Middle East, specializing in ERP services and solutions. Redefine efficiency and achieve sustainable success in today's digital business landscape with ERP in the cloud."
+        },
+        "resources": {
+            "1": "Resources and Experience",
+            "2": "Our best qualities lies in the experience and resources we offer our clients, with 2 of the most successful Odoo gold partners ready at your service",
+            "3": "TDS",
+            "4": "ITSYS",
+            "5": "30+ Years of",
+            "6": "experience"
+        },
+        "products": {
+            "1": "Our Products",
+            "2": "Construction Application for Project Management & Subcontracting construction",
+            "3": "Streamline your construction business operations with our comprehensive construction business application , incorporating ERP for efficient project management. With features that cover everything from project management to financial reporting, our software can help you save time and money, improve efficiency, and boost profitability.",
+            "4": "HRMS with Mobile Application",
+            "5": "Our HRMS with Mobile App is an essential tool for any organization looking to improve the efficiency and effectiveness of its HR management processes through ERP solutions.",
+            "6": "Manufacturing Application for Chemical Industries and Assembly",
+            "7": "Our Manufacturing Application for Chemical Industries and Assembly is a comprehensive ERP solution the streamlines all aspects of manufacturing, from recipe formulation and production planning to quality control and cost analysis. With its robust features and industry-specific functionality, our module empowers chemical and assembly manufacturers to improve efficiency, productivity, compliance, and profitability.",
+            "8": "Sales and Distribution Mobile Application",
+            "9": "Our Sales and Distribution Mobile Application is a comprehensive solution that empowers sales teams to manage their entire sales process on the go, fully integrated with Odoo Sales Module. With its intuitive interface, full integration with Odoo Sales Module, and real-time data synchronization, our mobile app provides sales teams with the tools they need to close more deals and grow sales",
+            "10": "Real Estate End-to-end Application",
+            "11": "Our Real Estate Application is a comprehensive solution that streamlines all aspects of real estate management, management, fully integrated with ERP solutions, from property management and CRM to contract management, payment plans, inventory management, and customer statement reports. With its robust features and user-friendly interface, our module empowers real estate professionals to improve efficiency, productivity, and customer service.",
+            "12": "Multiple Branches Retail Store",
+            "13": "Our Multiple Branches Retail Store software is a comprehensive solution that helps businesses efficiently manage multiple retail store locations, with integrated ERP solutions. With its robust features and user-friendly interface, our software empowers retailers to streamline operations, improve customer service, and boost sales.",
+            "14": "Asset Management Application",
+            "15": "Our asset management system for multiple locations and ERP opensource backend to manage inventory, HR, and accounting is a comprehensive solution for businesses that need to track and manage their assets across multiple locations. Our system provides you with a centralized view of all of your assets, as well as the tools you need to manage them efficiently and effectively.",
+            "16": "Booking & Reservation Application",
+            "17": "Our booking and reservation application with ERP opensource backend for accounting and CRM is a comprehensive solution for businesses of all sizes, fully integrated with ERP solutions.. Our application allows you to manage your bookings and reservations, track your finances, and engage with your customers all in one place.",
+            "18": "Patient & Hospital Management End-to-end Application with Mobile App, Website & ERP for Hospitals & Clinics",
+            "19": "Our medical health management application is a comprehensive solution that helps healthcare organizations improve their operations and patient care, incorporating ERP for seamless integration. With a wide range of features, including clinical decision support, emergency medicine, hospital operations, laboratory management, medical device integration, medication management, nursing documentation, doctors order management, physician documentation, theatres and anesthesia, acute and inpatient care, primary care, analytics, insights, & discovery, access & revenue cycle, digital patient experience, patient flow, advancing medicine, population health, health plans, interoperability, specialty care, and continuing care.",
+            "20": "SlA with Agile Implementation over of 2 years of Odoo"
+        },
+        "solutions": {
+            "1": "Our Solutions",
+            "2": "Certified Gold Partners for Odoo",
+            "3": "With over two decades of dedicated experience in executing and delivering corporate management projects, we have actively contributed to enhancing and facilitating the utilization of Odoo systems for complete resource management. Our efforts aid in cost savings, improved financial and human resource management, and the enhancement of your business's profitability, ultimately achieving sustainable success.",
+            "4": "Sales digital Transformation",
+            "5": "At DIS, we understand the importance of fostering strong relationships with your customers. That’s why we offer a comprehensive CRM system, a crucial component of ERP services, that streamlines communication, allowing you to provide unparalleled customer service. Specializing in the transformation of sales organizations, our consulting and training services at DIS are tailored to meet the unique requirements of our clients' sales departments. With our proven expertise in sales methodologies, best practices, and cutting-edge technologies, we provide valuable insights and guidance to enhance your sales processes, optimize performance, and drive revenue growth. Our training programs are designed to equip your sales teams with the skills, knowledge, and tools they need to excel in today’s competitive market.",
+            "6": "Technical support and Operation services for Odoo",
+            "7": "Providing ongoing technical support and daily operation and administration for Odoo, whether through offering technical consultations or resolving daily issues. Ensuring regular system updates and maintenance to guarantee its continuous and efficient operation",
+            "8": "Business Transformation",
+            "9": "Odoo provides a comprehensive solution that encompasses all aspects of business, from sales and purchases to accounting and human resources, contributing to achieving seamless integration of company operations. By achieving digital transformation through Odoo, companies can enhance their competitiveness in the market by improving efficiency and fostering innovation."
+        },
+        "digital": {
+            "1": "The Best for your Business",
+            "2": "Let Us Help You",
+            "3": "THE BEST DIGITAL",
+            "4": "TRANSFORMATION",
+            "5": "We specialize in creating visually appealing websites that resonate with your brand identity. Enhance your online presence through captivating and user-friendly website solutions, tailored to elevate your business in the digital realm with Odoo ERP."
+        },
+        "contact": {
+            "1": "Get in",
+            "2": "Touch",
+            "3": "Enim tempor eget pharetra facilisis sed maecenas adipiscing. Eu leo molestie vel, ornare non id blandit netus.",
+            "4": "Name",
+            "5": "Work Email Only",
+            "6": "Phone number",
+            "7": "Company Name",
+            "8": "Industry",
+            "9": "Select Service",
+            "10": "SEND",
+            "11": "Phone",
+            "12": "FAX",
+            "13": "EMAIL"
+        }
     },
     "about": {
-        "1": "Hello About Page"
+        "team": {
+            "1": "Our Team",
+            "2": "What Makes DIS Special?",
+            "3": "DIS brings together the expertise of two of the top leading software companies in the middle east to create a powerhouse for next-generation technology services, specializing in ERP services.",
+            "4": "With over 30 years of experience in the software industry and a combined experience of 15 years dedicated to the ERP ecosystem, we formed DIS with a vision to be the premier software and services in Saudi Arabia",
+            "5": "At DIS, we leverage the cumulative capabilities and proven track record of our founding companies to deliver best-in-class solutions, spanning Odoo implementation, custom enterprise apps, and specialized consulting, enabling us to optimize software platforms for organizations of all sizes.",
+            "6": "120+ Employees"
+        },
+        "consultants": {
+            "1": "Our Consultants",
+            "2": "DIS has a team of consultants with the best experience ready to elevate and transform your business",
+            "3": "Eng Yasser Maher",
+            "4": "Chairman of the Board",
+            "5": "Yasser, the CEO and Founder of TDS Corporation, boasts a wealth of over 30 years in the IT industry as a technology consultant and expert. His passion lies in tailoring software and ERP solutions for real estate, manufacturing, retail, and medical sectors, aiding businesses of all sizes in their success journey. Yasser is recognized as a respected industry leader, showcasing leadership, technical expertise, and business acumen. His background in IBM, where he held leadership roles, highlights his skill in translating complex business challenges into effective technical solutions. Overall, Yasser stands as a highly experienced and valued software technology expert",
+            "6": "Eng Sherif Hamzawy",
+            "7": "Board Member and Vice Chairman of the Board",
+            "8": "With over 30 years of experience in the IT industry, currently holds the position of IBM's Regional Partner Ecosystem Executive for Saudi Arabia. Specializing in cloud computing, managed services, and partnership development, Sherif previously served as IBM Global Technology Services Country Manager for Saudi Arabia from 2017-2019. In this role, they oversaw the sales and delivery of infrastructure and cloud-based managed services. Sherif's extensive career at IBM features various leadership roles in Egypt and leading cloud computing sales efforts across the CEEMEA region. Technical expertise was gained from earlier roles as Chief Technology Officer at Pyramid Technology and Networking Manager at ICL Fujitsu. Their educational background includes a Bachelor's degree in Electrical, Electronics, and Communications Engineering from Cairo University, coupled with IBM Certified Seller certification. Demonstrating a consistent track record, Sherif is known for driving multi-million dollar sales pipelines and successfully expanding into new markets and service lines.",
+            "9": "Dr Khaled Shams",
+            "10": "Board Member",
+            "11": "With a rich background of over 20 years in IT services, strategic consulting, and program management, presently holds the role of Managing Director at IT Systems Corporation. Specializing in ERP and digital solutions for enterprise clients, Ahmed previously served as an Enterprise Risk Manager at Hewlett-Packard EMEA and held the position of Account Director managing HP-Vodafone relationships. Holding a PhD in Information Technology, Ahmed has authored over 10 peer-reviewed papers and possesses a Project Management Professional (PMP) certification. Renowned for their technical depth, business acumen, and strategic leadership abilities, Ahmed excels in building valuable relationships and delivering future-proof solutions.",
+            "12": "Eng Ahmed ElKoussy",
+            "13": "Board Member",
+            "14": "Ahmed Elkoussy, a highly qualified trainer since 1983, specializes in Process Automation, Organization Development, and international Quality Standards. From roles at IBM to reaching CEO level at Raya Holding in 2006, he founded MADA Consulting and Training. Certified as a leader and Master Distributor of QUOTA International, he established the Sales Academy and freelances as an expert trainer with LEORON since 2017 across Egypt, KSA, and Dubai. Ahmed's diverse expertise spans communication, time management, problem-solving, customer service, leadership, and strategic management.",
+            "15": "Osama Badr",
+            "16": "Board Member",
+            "17": "Osama, a seasoned IT professional with 25+ years of experience, holds expertise as a Program, Operations, and Practice Manager. Certified as a PMP since 2002, he has led successful application delivery projects, managed teams, and contributed to CMM L2 and CMMI L3 preparations. With global exposure, Osama possesses strong technical and analytical skills, excelling in communication. Specializing in Operation and Delivery Management, Practice Management, and Presales, he navigates outsourcing and demonstrates deep expertise in SAP solutions, particularly in Healthcare, Oil & Gas, and Port Management. Committed to leveraging this extensive experience, Osama aims for organizational success",
+            "18": "Ahmed Felifal",
+            "19": "Board Member",
+            "20": "Ahmed is an accomplished business transformation leader with expertise in improving customer-corporation relationships. Combining startup agility with extensive experience in large-scale business settings, he drives transformative change globally across IT, Telecom, Financial Services, and Government sectors. Ahmed brings operational proficiency in various aspects of Digital Transformation, including RPA, AI, Machine Learning, technology architecture, organizational setup, and risk management.",
+            "21": "Dr. Ayman El- Geneidy",
+            "22": "Head A.I. Engineering USA",
+            "23": "Islam Soliman",
+            "24": "Enterprise Business Director",
+            "25": "Khaled Zeid",
+            "26": "TDS Canada Unit Manager"
+        },
+        "collaborating": {
+            "1": "Collaborating to Create Unique Solutions",
+            "2": "We believe in the power of collaboration. Our partnerships with innovative and forward-thinking companies have been crucial to our success in delivering exceptional results to our clients.",
+            "3": "We believe in delivering excellence in everything we do. Our dedication to excellence has allowed us to form strong relationships with our clients and partners, and we are proud to have a 95%client retention rate."
+        }
     },
     "solutions": {
         "1": "Hello Solutions Page"
@@ -17,8 +135,8 @@
     "products": {
         "1": "Hello Products Page"
     },
-    "stories": {
-        "1": "Hello Stories Page"
+    "ReferancesPage": {
+        "1": "Hello Referances Page"
     },
     "contact": {
         "1": "Hello Contact Page"

@@ -38,10 +38,10 @@ export default async function RootLayout({
   return (
     <html lang={lng} dir={dir(lng)}>
       <body
-        className={`${cairo.className} font-normal text-lg bg-[#F0F1F1] overflow-x-hidden min-h-screen scroll-smooth`}
+        className={`font-normal text-lg bg-[#EDEDED] overflow-x-hidden min-h-screen scroll-smooth`}
       >
         <section className='relative'>
-          <Navbar className='absolute top-0 left-0 w-full' lng={lng} />
+          <Navbar className='' lng={lng} />
           {children}
           <Footer lng={lng} />
         </section>

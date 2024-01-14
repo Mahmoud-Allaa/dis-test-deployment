@@ -86,7 +86,7 @@
 
   /* navbar */
   .nav {
-    @apply pt-8 sm:pt-10 px-10 max-[350px]:px-6;
+    @apply px-[70px] max-[350px]:px-[24px];
   }
 
   .nav-container {
@@ -112,61 +112,61 @@
 
   /* contact page */
 
-  .contact-form-en {
-    box-shadow: 0 10px 4px rgba(0, 0, 0, 25%);
-    @apply rounded-lg pt-16 pb-[3.125rem] max-sm:px-4 px-8 mt-[4.375rem] max-w-[400px] xl:max-w-[475px] lg:absolute top-[-40%] xl:top-[-45%] right-[5%] bg-white bg-opacity-90;
+  // .contact-form-en {
+  //   box-shadow: 0 10px 4px rgba(0, 0, 0, 25%);
+  //   @apply rounded-lg pt-16 pb-[3.125rem] max-sm:px-4 px-8 mt-[4.375rem] max-w-[400px] xl:max-w-[475px] lg:absolute top-[-40%] xl:top-[-45%] right-[5%] bg-white bg-opacity-90;
 
 
-    .header {
-      @apply mb-5 text-center md:text-left headline-3-mobile md:headline-3;
-    }
+  //   .header {
+  //     @apply mb-5 text-center md:text-left headline-3-mobile md:headline-3;
+  //   }
 
-    input,
-    textarea {
-      @apply w-full mb-3 px-3 py-2 bg-[#EFEFEF] border border-solid border-[#D0D0D0] rounded-lg text-[0.75rem] text-primary focus:outline focus:outline-1 focus:outline-primary;
-    }
+  //   input,
+  //   textarea {
+  //     @apply w-full mb-3 px-3 py-2 bg-[#EFEFEF] border border-solid border-[#D0D0D0] rounded-lg text-[0.75rem] text-primary focus:outline focus:outline-1 focus:outline-primary;
+  //   }
 
-    input::placeholder,
-    textarea::placeholder {
-      @apply text-[0.75rem] text-[#5C5C5C] p-0;
-    }
+  //   input::placeholder,
+  //   textarea::placeholder {
+  //     @apply text-[0.75rem] text-[#5C5C5C] p-0;
+  //   }
 
-    button {
-      box-shadow: 0 4px 31px rgba(0, 0, 0, 15%);
+  //   button {
+  //     box-shadow: 0 4px 31px rgba(0, 0, 0, 15%);
 
-      // to center it without flex or grid
-      @apply mt-5 px-14 py-2 bg-primary text-white font-bold text-[0.8125rem] leading-[1.3125rem] place-self-auto;
-      @apply transition-all hover:translate-y-[2px] rounded-lg;
-    }
-  }
+  //     // to center it without flex or grid
+  //     @apply mt-5 px-14 py-2 bg-primary text-white font-bold text-[0.8125rem] leading-[1.3125rem] place-self-auto;
+  //     @apply transition-all hover:translate-y-[2px] rounded-lg;
+  //   }
+  // }
 
-  .contact-form-ar {
-    box-shadow: 0 10px 4px rgba(0, 0, 0, 25%);
-    @apply rounded-lg pt-16 pb-[3.125rem] max-sm:px-4 px-8 mt-[4.375rem] max-w-[400px] xl:max-w-[475px] lg:absolute top-[-40%] xl:top-[-45%] left-[5%] bg-white bg-opacity-90;
+  // .contact-form-ar {
+  //   box-shadow: 0 10px 4px rgba(0, 0, 0, 25%);
+  //   @apply rounded-lg pt-16 pb-[3.125rem] max-sm:px-4 px-8 mt-[4.375rem] max-w-[400px] xl:max-w-[475px] lg:absolute top-[-40%] xl:top-[-45%] left-[5%] bg-white bg-opacity-90;
 
 
-    .header {
-      @apply mb-5 text-center md:text-left headline-3-mobile md:headline-3;
-    }
+  //   .header {
+  //     @apply mb-5 text-center md:text-left headline-3-mobile md:headline-3;
+  //   }
 
-    input,
-    textarea {
-      @apply w-full mb-3 px-3 py-2 bg-[#EFEFEF] border border-solid border-[#D0D0D0] rounded-lg text-[0.75rem] text-primary focus:outline focus:outline-1 focus:outline-primary;
-    }
+  //   input,
+  //   textarea {
+  //     @apply w-full mb-3 px-3 py-2 bg-[#EFEFEF] border border-solid border-[#D0D0D0] rounded-lg text-[0.75rem] text-primary focus:outline focus:outline-1 focus:outline-primary;
+  //   }
 
-    input::placeholder,
-    textarea::placeholder {
-      @apply text-[0.75rem] text-[#5C5C5C] p-0;
-    }
+  //   input::placeholder,
+  //   textarea::placeholder {
+  //     @apply text-[0.75rem] text-[#5C5C5C] p-0;
+  //   }
 
-    button {
-      box-shadow: 0 4px 31px rgba(0, 0, 0, 15%);
+  //   button {
+  //     box-shadow: 0 4px 31px rgba(0, 0, 0, 15%);
 
-      // to center it without flex or grid
-      @apply mt-5 px-14 py-2 bg-primary text-white font-bold text-[0.8125rem] leading-[1.3125rem] place-self-auto;
-      @apply transition-all hover:translate-y-[2px] rounded-lg;
-    }
-  }
+  //     // to center it without flex or grid
+  //     @apply mt-5 px-14 py-2 bg-primary text-white font-bold text-[0.8125rem] leading-[1.3125rem] place-self-auto;
+  //     @apply transition-all hover:translate-y-[2px] rounded-lg;
+  //   }
+  // }
 }
 
 @media screen and (max-width: 450px) {

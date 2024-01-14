@@ -4,7 +4,7 @@ const path = require('path')
  * @type {import('next').NextConfig}
  */
 const nextConfig = {
-  // output: 'export',
+  output: 'export',
   images: {
     unoptimized: true,
   },
@@ -14,15 +14,15 @@ const nextConfig = {
   // skipTrailingSlashRedirect: true,
   // Optional: Change the output directory `out` -> `dist`
   // distDir: 'dist',
-  async redirects() {
-    return [
-      {
-        source: '/',
-        destination: '/en',
-        permanent: true,
-      },
-    ]
-  },
+  // async redirects() {
+  //   return [
+  //     {
+  //       source: '/',
+  //       destination: '/en',
+  //       permanent: true,
+  //     },
+  //   ]
+  // },
 }
 
 // module.exports = {

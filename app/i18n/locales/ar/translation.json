@@ -3,7 +3,7 @@
     "About US": "عن الشركة",
     "Solutions": "Solutions",
     "Products": "Products",
-    "Success Stories": "قصص نجاحنا",
+    "Referances": "قصص نجاحنا",
     "Contact Us": "تواصل معنا",
     "home": {
         "1": "أهلا DIS-SA"
@@ -17,7 +17,7 @@
     "products": {
         "1": "Hello Products Page"
     },
-    "stories": {
+    "ReferancesPage": {
         "1": "قصص نجاحما"
     },
     "contact": {
