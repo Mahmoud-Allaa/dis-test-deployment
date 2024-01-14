@@ -15,10 +15,10 @@ const Resources = async ({ lng }: { lng: string }) => {
                 <h2 className='text-[32px] md:text-[50px] leading-[normal] font-[600] mb-[32px]'>{t("home.resources.1")}</h2>
                 <p>{t("home.resources.2")}</p>
                 {/* <div className=""> */}
-                <button className='bg-[#1EABE3] hover:drop-shadow mt-5 p-0'>
+                <button className='bg-[#1EABE3] hover:drop-shadow rounded text-white py-1 mt-5 p-0'>
                     <Link href='https://tds-int.com' target='blank' className='px-10 py-2'>{t("home.resources.3")}</Link>
                 </button>
-                <button className='bg-[#1F4E79] hover:drop-shadow mx-5 mt-5 p-0'>
+                <button className='bg-[#1F4E79] hover:drop-shadow rounded text-white py-1 mx-5 mt-5 p-0'>
                     <Link href='https://www.itsyscorp.com/' target='blank' className='px-10 py-2'>{t("home.resources.4")}</Link>
                 </button>
                 {/* </div> */}
