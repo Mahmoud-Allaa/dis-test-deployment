@@ -58,13 +58,13 @@ const Contact = async ({ lng }: { lng: string }) => {
                 <form className='max-w-[500px]'>
                     {fields.map((f, i) => (
                         f.type !== 'select' ?
-                            (<TextField id="outlined-basic" label={f.label} variant="outlined" className='mt-3 w-full' required={f.required} />)
+                            (<TextField id="outlined-basic" label={f.label} variant="outlined" sx={{ width: '100%', marginTop: '12px' }} required={f.required} />)
                             :
                             (<TextField
                                 id="outlined-select-currency"
                                 select
                                 label={f.label}
-                                className='w-full mt-3'
+                                sx={{ width: '100%', marginTop: '12px' }}
                                 required={f.required}
                             // defaultValue=""
                             // helperText="Please select your currency"
@@ -77,7 +77,7 @@ const Contact = async ({ lng }: { lng: string }) => {
                             </TextField>)
 
                     ))}
-                    <Button type='submit' className='bg-[#214080] w-full mt-6' variant='contained'>{t("home.contact.10")}</Button>
+                    <button className='bg-[#214080] w-full mt-[24px] rounded py-1 text-white' type='submit' >{t("home.contact.10")}</button>
                 </form>
 
 
@@ -112,11 +112,13 @@ const Contact = async ({ lng }: { lng: string }) => {
                 </div>
             </div>
             <div className="map md:w-[35%] h-full">
-                <h3 className='text-[#1A9FD3] text-[25px] font-[700] my-[10]'>Join The 170+ Companies Relying on DIS Expert!</h3>
-                <div className="grid grid-cols-3 items-center gap-10 bg-white p-24px drop-shadow rounded-[30px] w-[400px] ml-[-300px]">
-                    {images.map((img, i) => (
-                        <Image key={i} className='w-[100px] mx-auto' src={img} alt='img' />
-                    ))}
+                <div className='bg-white p-[24px] drop-shadow rounded-[30px] mx-[24px] max-w-[400px] md:ml-[-200px]'>
+                    <h3 className='text-[#1A9FD3] text-center text-[25px] font-[700] my-[10]'>Join The 170+ Companies Relying on DIS Expert!</h3>
+                    <div className="grid grid-cols-3 items-center gap-10 ">
+                        {images.map((img, i) => (
+                            <Image key={i} className='w-[100px] mx-auto' src={img} alt='img' />
+                        ))}
+                    </div>
                 </div>
             </div>
         </section>

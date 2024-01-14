@@ -15,12 +15,12 @@ const Resources = async ({ lng }: { lng: string }) => {
                 <h2 className='text-[32px] md:text-[50px] leading-[normal] font-[600] mb-[32px]'>{t("home.resources.1")}</h2>
                 <p>{t("home.resources.2")}</p>
                 {/* <div className=""> */}
-                <Button variant='contained' className='bg-[#1EABE3] hover:bg-[#1EABE3] mt-5 p-0'>
+                <button className='bg-[#1EABE3] hover:drop-shadow mt-5 p-0'>
                     <Link href='https://tds-int.com' target='blank' className='px-10 py-2'>{t("home.resources.3")}</Link>
-                </Button>
-                <Button variant='contained' className='bg-[#1F4E79] hover:bg-[#1F4E79] mx-5 mt-5 p-0'>
+                </button>
+                <button className='bg-[#1F4E79] hover:drop-shadow mx-5 mt-5 p-0'>
                     <Link href='https://www.itsyscorp.com/' target='blank' className='px-10 py-2'>{t("home.resources.4")}</Link>
-                </Button>
+                </button>
                 {/* </div> */}
             </div>
             <Image className='ml-[-200px] hidden md:block' src={resourcesFrame} alt='img' />
