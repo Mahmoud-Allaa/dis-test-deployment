@@ -16,7 +16,7 @@ const cairo = Cairo({
 })
 
 export const metadata: Metadata = {
-  title: 'TDS - Talents Digital Services',
+  title: 'DIS - Digital Information Solutions Saudi Corp. ',
   description:
     'Multi national company with offices at USA, Egypt, and Saudi Arabia. We provide software applications solutions and business reorganization consultancy',
   // description:
